@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "seadrops",
+  "version": "${version}",
+  "name": "SeaDrops",
+  "description": "Plays an animation and sound when you fish up a rare drop in Hypixel SkyBlock.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.seadrops.SeaDropsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
